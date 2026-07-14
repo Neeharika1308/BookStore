@@ -1,0 +1,19 @@
+const express = require("express");
+
+const router = express.Router();
+
+const {
+  addToWishlist,
+  getWishlist,
+  removeWishlist,
+} = require("../controllers/wishlistController");
+
+const { protect } = require("../middleware/authMiddleware");
+
+router.get("/", protect, getWishlist);
+
+router.post("/:bookId", protect, addToWishlist);
+
+router.delete("/:bookId", protect, removeWishlist);
+
+module.exports = router;
