@@ -1,5 +1,23 @@
 # BookStore
 
+## Installation
+
+### Backend
+cd backend
+npm install
+npm run dev
+
+### Frontend
+cd frontend
+npm install
+npm run dev
+
+## Live Demo
+Frontend: https://your-vercel-link.vercel.app
+
+Backend API:
+https://bookstore-backend-322l.onrender.com
+
 ## GitHub Repository
 https://github.com/Neeharika1308/BookStore
 
