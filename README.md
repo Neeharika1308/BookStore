@@ -13,7 +13,7 @@ npm install
 npm run dev
 
 ## Live Demo
-Frontend: https://your-vercel-link.vercel.app
+Frontend: https://book-store-gilt-eta.vercel.app/
 
 Backend API:
 https://bookstore-backend-322l.onrender.com
